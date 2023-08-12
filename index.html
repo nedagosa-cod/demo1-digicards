@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+    <script src="./src/js/index.js" defer></script>
+    <title>Boda de Matias y Lorena</title>
+</head>
+<body class="body">
+    <div class="items-fall">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+    <header class="header">
+        <figure class="header__marco">
+            <img src="./src/assets/marco_header.png" alt="marco">
+        </figure>
+        <figure class="hoja_0">
+            <img src="./src/assets/hoja4.svg" alt="hoja">
+        </figure>
+        <figure class="hoja_1">
+            <img src="./src/assets/hoja1.svg" alt="hoja">
+        </figure>
+        <figure class="hoja_2">
+            <img src="./src/assets/hoja2.svg" alt="hoja">
+        </figure>
+        <figure class="hoja_3">
+            <img src="./src/assets/hoja3.svg" alt="hoja">
+        </figure>
+
+        <figure class="hoja_4 hojarotada">
+            <img src="./src/assets/hoja4.svg" alt="hoja">
+        </figure>
+        <figure class="hoja_5 hojarotada">
+            <img src="./src/assets/hoja1.svg" alt="hoja">
+        </figure>
+        <figure class="hoja_6 hojarotada">
+            <img src="./src/assets/hoja2.svg" alt="hoja">
+        </figure>
+        <figure class="hoja_7 hojarotada">
+            <img src="./src/assets/hoja3.svg" alt="hoja">
+        </figure>
+        <div class="scrolldown">
+            <div class="chevrons">
+                <div class="chevrondown"></div>
+                <div class="chevrondown"></div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <figure class="hoja-back">
+            <img src="./src/assets/hoja1.svg" alt="hoja">
+        </figure>
+        <div class="main__title">
+            <figure class="borders">
+                <img src="./src/assets/hojas-top.svg" alt="furni">
+            </figure>
+            <h1>Matias</h1>
+            <span>&</span>
+            <h1>Lorena</h1>
+            <figure class="borders">
+                <img src="./src/assets/hojas-bot.svg" alt="furni">
+            </figure>
+        </div>
+        <div class="main__subtitle">
+            <h2>Nos casamos!</h2>
+            <h3>25 de Diciembre de 2023</h3>
+            <figure class="borders">
+                <img src="./src/assets/hojas-bot.svg" alt="furni">
+            </figure>
+        </div>
+    </main>
+
+    <section class="anuncio">
+        <div class="custom-shape-divider-top-1691803845">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        <h2 class="titulo">Tarjeta de invitación</h2>
+        <p class="subtitulo">"En el baile de la vida, nuestras almas encontraron su perfecta melodía, y ahora nos preparamos para danzar juntos en el dulce compás del matrimonio."</p>
+        <div class="boxmodel">
+            <model-viewer src="./src/assets/ring_02.glb" camera-orbit="calc(-1.5rad + env(window-scroll-y) * 16rad)" disable-zoom></model-viewer>
+        </div>
+    </section>
+</body>
+</html>
