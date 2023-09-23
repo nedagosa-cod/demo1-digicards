@@ -9,9 +9,12 @@ tl.to('.header__marco',{
     ease: "power1.out",
     scrollTrigger: {
         trigger: '.main',
-        start: 'top 99%',
-        end: 'top 1%',
-        // markers: true,
+        start: 'top 80%',
+        end: 'top 20%',
+        markers: {
+            startColor: '#0aeafa00',
+            endColor: '#0aeafa00'
+        },
         scrub: 1
     }
 })

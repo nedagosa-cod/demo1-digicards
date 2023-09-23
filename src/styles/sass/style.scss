@@ -260,12 +260,23 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: start;
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     background-size: cover;
     background-position: center;
+    &__top {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
     &__title {
         display: flex;
         align-items: center;
@@ -287,15 +298,15 @@
     }
     &__marco {
         position: absolute;
-        top: 50%;
-        left: 50%;
         width: 760px;
         z-index: 10;
-        transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
-        -moz-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        -o-transform: translate(-50%, -50%);
+        top: 5vh;
+        //view-timeline-name: --marco;
+        //view-timeline-axis: block;
+        //animation-timeline: --marco;
+        //animation-name: downScroll;
+        //animation-range: entry 1% cover 99%;
+        //animation-fill-mode: both;
     }
     .hojarotada {
         transform: scaleX(-1);
@@ -303,7 +314,7 @@
         -moz-transform: scaleX(-1);
         -ms-transform: scaleX(-1);
         -o-transform: scaleX(-1);
-}
+    }
     .hoja_0 {
         position: absolute;
         bottom: -30px;
@@ -490,6 +501,9 @@
         opacity: .5;
     }
     .header {
+        &__marco {
+            top: 25vh;
+        }
         .hoja_0 {
             position: absolute;
             bottom: 0;
