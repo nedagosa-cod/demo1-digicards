@@ -939,6 +939,69 @@ svg {
   .anuncio .custom-shape-divider-top-1691803845 svg {
     height: 65px;
   }
+  .date__monograma {
+    width: 310px;
+    height: 280px;
+    top: -150%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+  .event {
+    display: block;
+  }
+  .event .box {
+    width: 100%;
+    margin: 0;
+    padding: 0 16px;
+  }
+  .event .box.event__left {
+    margin-top: 100px;
+  }
+  .gallery .titulo {
+    margin: auto;
+  }
+  .gallery .subtitulo {
+    width: 90%;
+    font-size: 2rem;
+  }
+  .footer {
+    background: #aa935f;
+    padding: 16px;
+  }
+  .footer .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    font-size: 2rem;
+    font-family: "Pompiere", cursive;
+    padding: 10px;
+  }
+  .footer .top__fig-1 {
+    width: 30px;
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.5));
+    -webkit-filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.5));
+  }
+  .footer .top__fig-2 {
+    width: 120px;
+    margin: 0 12px;
+  }
+  .footer .bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 2rem;
+    font-family: "Pompiere", cursive;
+  }
+  .footer .bot a {
+    color: #0b8600;
+    margin: 10px auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

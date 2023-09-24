@@ -82,8 +82,6 @@ gsap.fromTo('.hoja_7',{y:600,x:-100},{
 })
 
 
-
-
 lightbox.option({
     resizeDuration: 200,
     wrapAround: true,
