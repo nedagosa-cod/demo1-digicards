@@ -15,7 +15,7 @@ tl.to('.header__marco',{
             startColor: '#0aeafa00',
             endColor: '#0aeafa00'
         },
-        scrub: 1
+        scrub: true
     }
 })
 
@@ -80,3 +80,12 @@ gsap.fromTo('.hoja_7',{y:600,x:-100},{
     duration:1,
     delay: 0.4
 })
+
+
+
+
+lightbox.option({
+    resizeDuration: 200,
+    wrapAround: true,
+    disableScrolling: true,
+  });
